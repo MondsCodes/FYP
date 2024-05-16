@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Jockey One';
+}
+
+:root {
+	--mainColor: #C5AFF3;
+	--secondaryColor: #ffffff;
+	--tertiaryColor: #6e459c;
+	--textColor: #000000;
+}
+
+/* help.css */
+
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.help-container {
+	width: 850px;
+	/* Adjust the maximum width as needed */
+	margin: 20px auto;
+	font-size: 18px;
+	/* Adjust the font size as needed */
+	line-height: 1.5;
+	/* Adjust the line height as needed */
+	letter-spacing: 1px;
+	/* Adjust the letter spacing as needed */
+}
+
+.description {
+	width: 800px;
+	font-size: 22px;
+	display: flex;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.faq {
+	margin-bottom: 15px;
+	cursor: pointer;
+	padding-bottom: 20px;
+}
+
+.faq h3 {
+	margin: 0;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.faq p {
+	margin: 0;
+	padding: 10px;
+	background-color: #f9f9f9;
+}
+
+
+
+
+/* Add these styles to your existing CSS file or create a new one */
+
+.main-container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+h2 {
+	text-align: center;
+	color: #673ab7;
+	/* Deep Purple color */
+}
+
+form {
+	margin-top: 20px;
+}
+
+.form-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-col {
+	flex-basis: 48%;
+	/* Adjust the width of form columns as needed */
+}
+
+.form-control {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.message {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.submit {
+	background-color: #b39ddb;
+	/* Light Purple color */
+	color: #fff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+	background-color: #9575cd;
+	/* Darker Purple color on hover */
+}

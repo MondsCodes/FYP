@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Jockey One';
+}
+
+:root {
+	--mainColor: #C5AFF3;
+	--secondaryColor: #ffffff;
+	--tertiaryColor: #6e459c;
+	--textColor: #000000;
+}
+
+.user-stats {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* Creates two columns */
+	gap: 20px;
+	/* Adjusts space between rows and columns */
+	max-width: 800px;
+	/* Adjust based on preference */
+	margin: auto;
+	/* Centers the grid */
+	padding: 20px;
+	/* Adds some padding around the grid */
+}
+
+.user-stats h1 {
+	grid-column: 1 / -1;
+	/* Makes the heading span across all columns */
+	text-align: center;
+	/* Centers the heading */
+}
+
+.user-stats p {
+	background-color: #f9f9f9;
+	/* Light grey background for each stat */
+	padding: 10px;
+	/* Adds padding inside each stat block */
+	border-radius: 8px;
+	/* Optional: Rounds the corners of each stat block */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	/* Optional: Adds a subtle shadow */
+}
+
+.stats-container {
+	display: flex;
+	flex-direction: column;
+	/* Stack them vertically */
+	align-items: center;
+	/* Center-align items horizontally */
+	justify-content: center;
+	/* Center content vertically (if needed) */
+	text-align: center;
+	/* Ensure text within is also centered */
+	padding: 20px;
+	/* Add some padding around */
+	gap: 20px;
+	/* Space between your user-stats and bottom-right sections */
+}
+
+.user-stats,
+.bottom-right {
+	width: 100%;
+	/* Use full width to respect parent's centering */
+	max-width: 800px;
+	/* Or whatever maximum width you prefer */
+}
+
+.bottom-right ul,
+.bottom-right .past-activities ul {
+	padding: 0;
+	list-style-type: none;
+	/* Remove bullet points */
+}
+
+.bottom-right li {
+	cursor: pointer;
+	/* Optional: improves UX by indicating items are clickable */
+}
+
+.bottom-right li.active {
+	font-weight: bold;
+	/* Highlight the active selection */
+}

@@ -48,8 +48,8 @@ def send_disposal_event(rfid_id, material, disposal_time):
     data = {
         'rfid_id': rfid_id,
         'material': material,
-        'disposal_time': disposal_time
-    }
+        'disposal_time': disposal_time  
+        }
     response = requests.post(url, json=data)
     return response.ok
 

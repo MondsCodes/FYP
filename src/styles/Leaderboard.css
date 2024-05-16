@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Jockey One';
+}
+
+:root {
+	--mainColor: #C5AFF3;
+	--secondaryColor: #ffffff;
+	--tertiaryColor: #6e459c;
+	--textColor: #000000;
+}
+
+/* Leaderboard.css */
+
+
+.leaderboard-container {
+	max-width: 800px;
+	margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}

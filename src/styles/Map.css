@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Jockey One';
+}
+
+:root {
+	--mainColor: #C5AFF3;
+	--secondaryColor: #ffffff;
+	--tertiaryColor: #6e459c;
+	--textColor: #000000;
+}
+
+.map-container {
+	height: 800px;
+	width: 100%;
+}

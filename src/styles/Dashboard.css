@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jockey One';
+}
+
+:root {
+    --mainColor: #C5AFF3;
+    --secondaryColor: #ffffff;
+    --tertiaryColor: #6e459c;
+    --textColor: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.split {
+    background-color: #000000;
+    /* Set the background color to black */
+    height: 750px;
+    width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-right {
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: var(--tertiaryColor);
+}
+
+
+
+.bottom-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.bottom-right li {
+    margin-top: 0px;
+    margin: 0 45px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: var(--joingame-search-type);
+    transition: all 0.2s ease-in-out;
+}
+
+
+.bottom-right li.active {
+    color: var(--mainColor);
+    margin: 0 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.bottom-right li:hover {
+    color: var(--mainColor);
+}
+
+
+.past-activities {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.left {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topleft p,
+.bottomleft p {
+    font-size: 25px;
+    color: black;
+}
+
+.topleft p:first-child {
+    font-size: 28px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.topleft p.text-display {
+    text-align: center;
+    margin: 20px;
+}
+
+.topleft p.points-display {
+    font-size: 40px;
+    color: black;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.topleft p.points-display span {
+    font-size: 120px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.bottomleft {
+    text-align: center;
+}
+
+.bottomleft p {
+    margin: 10px 0;
+}
+
+.bottomleft button {
+    margin-top: 50px;
+    background-color: var(--mainColor);
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.time-intervals {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    color: black;
+}
+
+.time-intervals ul li.active {
+    text-decoration: underline;
+}
+
+.column-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.render-text {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--tertiaryColor);
+    list-style: none;
+}
+
+.topright {
+    height: 45%;
+}
+
+.claim-button {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.claim-button:hover {
+    color: #ffffff;
+}
+
+.line-graph-container {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}

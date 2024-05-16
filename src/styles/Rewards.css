@@ -1,0 +1,53 @@
+.redeem-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.redeem-form .form-group {
+    margin-bottom: 15px;
+}
+
+.redeem-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.redeem-form .form-group .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-submit {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+.qr-code {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qr-code img {
+    max-width: 100%;
+    height: auto;
+}
